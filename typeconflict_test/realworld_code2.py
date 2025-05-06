@@ -1,0 +1,1 @@
+val = chr("hello")  # TypeError: an integer is required (got type str)

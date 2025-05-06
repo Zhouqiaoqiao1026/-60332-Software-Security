@@ -1,0 +1,1 @@
+result = 10 + None  # TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'

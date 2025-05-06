@@ -1,0 +1,75 @@
+{
+  "_type": "Module",
+  "body": [
+    {
+      "_type": "Assign",
+      "targets": [
+        {
+          "_type": "Name",
+          "id": "a",
+          "ctx": {
+            "_type": "Store"
+          }
+        }
+      ],
+      "value": {
+        "_type": "Constant",
+        "value": 120,
+        "kind": null
+      },
+      "type_comment": null
+    },
+    {
+      "_type": "Assign",
+      "targets": [
+        {
+          "_type": "Name",
+          "id": "b",
+          "ctx": {
+            "_type": "Store"
+          }
+        }
+      ],
+      "value": {
+        "_type": "Constant",
+        "value": 10,
+        "kind": null
+      },
+      "type_comment": null
+    },
+    {
+      "_type": "Assign",
+      "targets": [
+        {
+          "_type": "Name",
+          "id": "c",
+          "ctx": {
+            "_type": "Store"
+          }
+        }
+      ],
+      "value": {
+        "_type": "BinOp",
+        "left": {
+          "_type": "Name",
+          "id": "a",
+          "ctx": {
+            "_type": "Load"
+          }
+        },
+        "op": {
+          "_type": "Add"
+        },
+        "right": {
+          "_type": "Name",
+          "id": "b",
+          "ctx": {
+            "_type": "Load"
+          }
+        }
+      },
+      "type_comment": null
+    }
+  ],
+  "type_ignores": []
+}

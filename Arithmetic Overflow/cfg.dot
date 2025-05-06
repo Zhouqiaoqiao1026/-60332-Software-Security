@@ -1,0 +1,4 @@
+digraph CFG {
+  node [shape=box];
+  n0 [label="n0\n{'op': 'assign', 'target': 'a', 'value': 120}\n{'op': 'assign', 'target': 'b', 'value': 10}\n{'op': 'assign', 'target': 'c', 'value': {'op': 'binop_with_signed_overflow_check', 'left': 'a', 'right': 'b', 'operator': '+'}}"];
+}

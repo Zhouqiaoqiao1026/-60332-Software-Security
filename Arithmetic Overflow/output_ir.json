@@ -1,0 +1,22 @@
+[
+  {
+    "op": "assign",
+    "target": "a",
+    "value": 250
+  },
+  {
+    "op": "assign",
+    "target": "b",
+    "value": 10
+  },
+  {
+    "op": "assign",
+    "target": "c",
+    "value": {
+      "op": "binop_with_overflow_check",
+      "left": "a",
+      "right": "b",
+      "operator": "+"
+    }
+  }
+]
